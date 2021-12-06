@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Resort Hotel</title>
+
+    <link rel="stylesheet" href="./css/custom.css">
+    <script src="https://kit.fontawesome.com/d22f7a02d9.js" crossorigin="anonymous"></script>
+</head>
+<body id="page-top">
+    
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-primary shadow-lg transition fixed-top navbar-wrap" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#page-top">
+            <img src="./img/logo.png" alt="Beach Resort Hotel Logo" width="150">
+        </a>
+
+        <button class="navbar-toggler text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse transition navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#page-top">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Habitaciones
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./habitaciones.html#simple">Habitación Individual</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./habitaciones.html#doble">Habitación Doble</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./habitaciones.html#suite">Suite</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- HEADER -->
+    <header>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/stock-1.jpg" class="d-block" alt="Costas de Mar del Plata">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/stock-2.jpg" class="d-block" alt="Vistas del Hotel Beach Resort">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/stock-3.jpg" class="d-block" alt="Costas de Mar del Plata">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/stock-4.jpg" class="d-block" alt="Atardecer en la Playa">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+    </header>
+
+  <!-- CONTENT -->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 text-center">
+          <h1 class="mb-4">Bienvenidos al Hotel Beach Resort</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo expedita dignissimos ipsam, dolor molestias architecto totam consequatur corrupti voluptates minima.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, error nostrum repellat id est porro mollitia doloremque et illo, aut dolorem quaerat dolores magni minus, quae obcaecati in nisi impedit culpa aspernatur voluptatem delectus. Perferendis voluptates excepturi reiciendis possimus. Velit repudiandae magnam commodi aliquid iste id dolores soluta delectus consequuntur?
+          </p>
+        </div>
+        <div class="col-12 col-lg-6 px-4 text-center">
+          <img src="./img/hotel-front.jpg" class="img-fluid about-img" alt="Hotel Beach Resort">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section class="page-section info-section">
+    <article class="conatainer info-container mx-3 mx-md-auto p-3 bg-light bg-opacity-50 text-center rounded-1">
+      <h2 class="mb-1">MAR DEL PLATA</h2>
+      <h5 class="fst-italic fw-bold text-primary">Una ciudad mágica...</h5>
+      <br>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, ab laudantium mollitia eos, perferendis culpa voluptates omnis aut, libero veritatis voluptatem sequi cum ad molestiae suscipit odio vel dolorem necessitatibus!</p>
+    </article>
+  </section>
+
+  <!-- WHATSAPP BUTTON -->
+  <a href="https://api.whatsapp.com/send?phone=9999999" target="_blank" class="whatsapp-btn hide-wsp-btn"> <i class="fab fa-whatsapp"></i></a>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container-fluid bg-success py-5">
+      <div class="container">
+        <div class="row text-center g-5">
+          <div class="col-md-4">
+            <img src="./img/logo.png" class="img-fluid" alt="Hotel Beach Resort Logo">
+          </div>
+          <div class="col-md-4 text-dark">
+            <h3 class="text-secondary">CONTACTO</h3>
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="px-3 fa-2x"><i class="fas fa-envelope"></i></span>
+              <h5 class="m-0">contacto_hotel@prueba.com</h5>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="px-3 fa-2x"><i class="fas fa-map-marker-alt"></i></span>
+              <h5 class="m-0">Avenida Coronel Lopez 4576</h5>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="px-3 fa-2x"><i class="fas fa-phone"></i></span>
+              <h5 class="m-0">(0223) 15555555</h5>
+            </div>
+          </div>
+          <div class="col-md-4 text-secondary">
+            <h3>REDES</h3>
+            <a href="#page-top" class="text-secondary px-3 fa-3x"><i class="fab fa-facebook-square"></i></a>
+            <a href="#page-top" class="text-secondary px-3 fa-3x"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary py-2 d-flex justify-content-center">
+      <h6>Copyright © Lucas Avendaño 2021</h6>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+  
+</body>
+</html>

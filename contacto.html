@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitaciones | Beach Resort Hotel</title>
+
+    <link rel="stylesheet" href="./css/custom.css">
+    <script src="https://kit.fontawesome.com/d22f7a02d9.js" crossorigin="anonymous"></script>
+</head>
+<body id="page-top">
+    
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-primary shadow-lg transition fixed-top navbar-wrap" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./img/logo.png" alt="Beach Resort Hotel Logo" width="150">
+        </a>
+
+        <button class="navbar-toggler text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse transition navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Habitaciones
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#simple">Habitación Individual</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#doble">Habitación Doble</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#suite">Suite</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#about">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#page-top">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- HEADER -->
+  <header class="container-fluid p-0 contacto-header d-flex flex-column align-items-center justify-content-center">
+    <div class="container position-relative mt-5">
+      <h1 class="display-3 fw-bold mt-3">Haga su Reserva</h1>
+      <h5 class="fst-italic text-primary mb-4">Comience su descanso aquí</h5>
+    </div>
+  </header>
+
+  <!-- FORM -->
+  <section class="page-section" id="simple">
+    <div class="container">
+      <h2 class="text-center">CONTACTO</h2>
+      <div class="row px-3 mt-5">
+        <div class="col-md-6">
+          <h6 class="mb-4 fw-bold">Complete todos los datos marcados con *</h6>
+          <form class="text-center text-muted">
+            <h6 class="mb-3">Ingrese con sus datos *:</h5>
+            <input type="text" class="form-control mb-3" placeholder="Nombre" required>
+            <input type="email" class="form-control mb-3" placeholder="E-mail" required>
+            <input type="number" class="form-control mb-4" placeholder="Teléfono" required>
+            <h6 class="mb-3">Cantidad de Pasajeros *:</h5>
+            <input type="number" class="form-control mb-4" placeholder="Número de Personas" required>
+            <div class="row">
+              <div class="col-lg-6">
+                <h6 class="mb-3">Desde *:</h5>
+                <input type="date" class="form-control mb-4" required>
+              </div>
+              <div class="col-lg-6">
+                <h6 class="mb-3">Hasta *:</h5>
+                <input type="date" class="form-control mb-4" required>
+              </div>
+            </div>
+            <h6 class="mb-3">Comentarios/Consulta:</h5>
+            <textarea rows="5" class="form-control mb-3" placeholder="Comentarios/Consulta:"></textarea>
+            <button type="submit" class="btn btn-secondary send-btn mb-4">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/hotel-front.jpg" class="img-fluid" alt="Hotel Beach Resort Frente">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHATSAPP BUTTON -->
+  <a href="https://api.whatsapp.com/send?phone=9999999" target="_blank" class="whatsapp-btn hide-wsp-btn"> <i class="fab fa-whatsapp"></i></a>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container-fluid bg-success py-5">
+      <div class="container">
+        <div class="row text-center g-5">
+          <div class="col-md-4">
+            <img src="./img/logo.png" class="img-fluid" alt="Hotel Beach Resort Logo">
+          </div>
+          <div class="col-md-4 text-dark">
+            <h3 class="text-secondary">CONTACTO</h3>
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="px-3 fa-2x"><i class="fas fa-envelope"></i></span>
+              <h5 class="m-0">contacto_hotel@prueba.com</h5>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="px-3 fa-2x"><i class="fas fa-map-marker-alt"></i></span>
+              <h5 class="m-0">Avenida Coronel Lopez 4576</h5>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="px-3 fa-2x"><i class="fas fa-phone"></i></span>
+              <h5 class="m-0">(0223) 15555555</h5>
+            </div>
+          </div>
+          <div class="col-md-4 text-secondary">
+            <h3>REDES</h3>
+            <a href="#page-top" class="text-secondary px-3 fa-3x"><i class="fab fa-facebook-square"></i></a>
+            <a href="#page-top" class="text-secondary px-3 fa-3x"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary py-2 d-flex justify-content-center">
+      <h6>Copyright © Lucas Avendaño 2021</h6>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+  
+</body>
+</html>
